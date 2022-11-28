@@ -4,9 +4,7 @@ import java.util.ArrayList;
 
 public class ProducerThread implements Runnable {
 	
-	private ArrayList<Integer> array;
-	
-	
+	private ArrayList<Integer> array;	
 
 	public ProducerThread(ArrayList<Integer> array) {
 		super();
@@ -14,10 +12,9 @@ public class ProducerThread implements Runnable {
 	}
 
 
-
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		
 		int x = 10 ;
 		
 		while(true) {
@@ -31,8 +28,7 @@ public class ProducerThread implements Runnable {
 					Thread.sleep(1000);
 					array.wait();
 					array.notify();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
+				} catch (InterruptedException e) {					
 					e.printStackTrace();
 				}
 				

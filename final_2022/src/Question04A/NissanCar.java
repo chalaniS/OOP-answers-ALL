@@ -2,9 +2,7 @@ package Question04A;
 
 public class NissanCar implements Car {
 	
-	CarAirBag airBag ;
-	
-	
+	CarAirBag airBag ;	
 
 	public NissanCar(CarAirBag airBag) {
 		super();

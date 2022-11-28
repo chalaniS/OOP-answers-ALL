@@ -3,8 +3,7 @@ package Question02A;
 public class DemoApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+				
 		TCalculation<Integer> integer = new TCalculation<>();
 		integer.append(12);
 		integer.append(1);
@@ -18,7 +17,6 @@ public class DemoApp {
 		dob.append(12.2);
 		dob.append(45.2);
 		dob.append(14.2);
-		
 		
 		System.out.println(integer.average());
 		System.out.println("\n" + dob.average());

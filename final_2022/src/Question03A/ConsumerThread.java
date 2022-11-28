@@ -12,13 +12,9 @@ public class ConsumerThread implements Runnable {
 		super();
 		this.array = array;
 	}
-
-
-
+	
 	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		
+	public void run() {				
 		while(true) {
 			synchronized(array) {
 				try {
@@ -30,7 +26,7 @@ public class ConsumerThread implements Runnable {
 					array.notify();
 					array.wait();
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 				

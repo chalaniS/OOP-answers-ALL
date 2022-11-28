@@ -3,8 +3,7 @@ package Question04A;
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+				
 		CarAirBag fAirBag = new FrontAirBag();
 		CarAirBag sAirBag = new SideAirBag();
 		
