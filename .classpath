@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="final 2022 feb/Answers/Answers/q1"/>
+	<classpathentry kind="src" path="final 2022 feb/sample answer men in black"/>
+	<classpathentry kind="src" path="final_2019A/src"/>
+	<classpathentry kind="src" path="final_2019B/src"/>
+	<classpathentry kind="src" path="final_2022/src"/>
+	<classpathentry kind="output" path="final_2019A/bin"/>
+</classpath>
